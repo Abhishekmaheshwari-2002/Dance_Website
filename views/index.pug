@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html
+  head
+  title Apni Dance Academy
+  style
+    include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/logo3.png")
+          h3 ADA
+        li #[a(href="/") Home ]
+        li #[a(href="/") About ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") Class Info ]
+        li #[a(href="/contact") Contact]
+
+    section#introSection 
+      div Welcome to Apni Dance Academy 
+      div.small Less Eat More Dance 
+
+    section#MissionSection 
+      h2 Our Mission
+      div.card 
+        h3 Dance is like Dancer
+        div.card-box
+          div.card-img
+            img(src="/static/img1.png")
+          div.card-content
+            p This is the Best Dacne Academy of the Universe
+      div.card 
+        h3 Make you Dancer 
+        div.card-box
+          div.card-img
+            img(src="/static/img1.png")
+          div.card-content
+            p This is the Best Dacne Academy of the Universe    
+      div.card 
+        h3 Expert teaching 
+        div.card-box
+          div.card-img
+            img(src="/static/img1.png")
+          div.card-content
+            p This is the Best Dacne Academy of the Universe   
+    section#sponsorSection 
+      h2 Our Sponsor
+      div#sponsors
+        img(src="/static/Logos1.png" alt="Sponsor Image", class= "spImage")
+        img(src="/static/Logos2.jpg", alt= "Sponsor Image", class= "spImage")
+        img(src="/static/Logos3.png", alt= "Sponsor Image", class= "spImage")
+        img(src="/static/Logos4.png", alt= "Sponsor Image", class= "spImage")     
+
+      footer#footer
+        | Copyright © 2024 ApniAcademy.com | All Rights Reserved   
+
+
+    script
+      include ../static/index.js

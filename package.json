@@ -1,0 +1,17 @@
+{
+  "name": "dance_india",
+  "version": "1.2.1",
+  "description": "this is a dance website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek maheshwari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.5",
+    "pug": "^3.0.2"
+  }
+}

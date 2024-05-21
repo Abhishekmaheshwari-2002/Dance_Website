@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Anybody", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+
+    #navbar {
+      background-color: black;
+      padding: 18px 14px;
+      /* border: 2px solid rgb(200, 36, 36); */
+    }
+
+    #logo h3 {
+      width: 50%;
+      display: inline-block;
+      color: white;
+      align-items: center;
+    }
+
+    #logo img {
+      height: 40px;
+      filter: invert(1);
+    }
+
+    #navbar li {
+      list-style: none;
+    }
+
+    #navbar li a {
+      text-decoration: none;
+      font-size: 20px;
+      padding: 13px 20px;
+      color: white;
+    }
+
+    #navbar li a:hover {
+      color: rgb(227, 62, 62);
+    }
+
+    #navbar ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    #introSection {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      background: center/cover no-repeat url("/static/bg.jpg");
+      font-size: 60px;
+      padding-bottom: 40px;
+    }
+
+    #introSection div.small {
+      font-size: 30px;
+    }
+
+    #MissionSection {
+      height: 300px;
+      width: 70%;
+      margin: auto;
+    }
+
+    #MissionSection h2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      font-size: 30px;
+      /* border: 2px solid rgb(238, 33, 33); */
+    }
+
+    #MissionSection .card {
+      display: inline-block;
+      border: 2px solid black;
+      border-radius: 10px;
+      width: 30%;
+      margin: 10px 15px;
+      height: 210px;
+    }
+
+    #MissionSection .card h3 {
+      text-align: center;
+      margin: 20px 12px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-img {
+      height: 130px;
+      padding: 0px;
+      margin: 5px 10px;
+    }
+
+    .card-img img {
+      height: inherit;
+    }
+
+    .card-content {
+      padding: 0 20px;
+    }
+
+    .card-content p {
+      font-size: 20px;
+    }
+
+    #sponsorSection {
+      height: 300px;
+      /* background-color: #e04242c7; */
+      border: 2px solid black;
+    }
+
+    #sponsorSection h2 {
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      border: 2px solid black;
+    }
+
+    #footer {
+      height: 300px;
+      /* background-color: blue; */
+      border: 2px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul>
+      <div id="logo">
+        <img src="/static/logo3.png" alt="" />
+        <h3>ADA</h3>
+      </div>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/">About</a>
+      </li>
+      <li>
+        <a href="/">Services</a>
+      </li>
+      <li>
+        <a href="/">Class Info</a>
+      </li>
+      <li>
+        <a href="/">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <section id="introSection">
+    <div>Welcome to Apni Dance Academy</div>
+    <div class="small">Less Eat More Dance</div>
+  </section>
+  <section id="MissionSection">
+    <h2>Our Mission</h2>
+    <div class="card">
+      <h3>Dance is like Dancer</h3>
+      <div class="card-box">
+        <div class="card-img">
+          <img src="/static/img1.png" alt="" />
+        </div>
+        <div class="card-content">
+          <p>This is the Best Dacne Academy of the Universe</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Make you Dancer</h3>
+      <div class="card-box">
+        <div class="card-img">
+          <img src="/static/img1.png" alt="" />
+        </div>
+        <div class="card-content">
+          <p>This is the Best Dacne Academy of the Universe</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Expert teaching</h3>
+      <div class="card-box">
+        <div class="card-img">
+          <img src="/static/img1.png" alt="" />
+        </div>
+        <div class="card-content">
+          <p>This is the Best Dacne Academy of the Universe</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sponsorSection">
+    <h2>Our Sponsor</h2>
+    <div id="sponsors"></div>
+  </section>
+  <footer id="footer">
+    Our Footer here
+  </footer>
+  <script></script>
+</body>
+
+</html>
